@@ -62,7 +62,7 @@ Run the API as above in one terminal. In another:
 npm --prefix frontend run dev
 ```
 
-Vite prints the local development URL (normally http://127.0.0.1:5173) and proxies `/api` to port 8000. Production build output is served by FastAPI so the main demo uses one origin and one port. Navigation uses hashes, so refresh and back/forward work without server-side route rewrites.
+Vite prints the local development URL (https://sriram1038.github.io/brandshield-ai/) and proxies `/api` to port 8000. Production build output is served by FastAPI so the main demo uses one origin and one port. Navigation uses hashes, so refresh and back/forward work without server-side route rewrites.
 
 ## Trusted Digital Twin and false positives
 
